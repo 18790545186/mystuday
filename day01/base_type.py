@@ -60,11 +60,17 @@ def sub(aint, bint):
 
 # return后的代码不执行
 
+def jiafa(aint,bint):
+    print(aint)
+    print(bint)
+    return aint + bint
+
 
 if __name__ == '__main__':
-    float_demo()
-
-
+    result = jiafa(5,3)
+    # result = jiafa(aint=5,bint=3)
+    print(result)
+    # float_demo()
 
     pass
 
