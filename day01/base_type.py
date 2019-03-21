@@ -52,7 +52,7 @@ def add(aint, bint):
 def sub(aint, bint):
     # 打印aint参数
     print(aint)
-    # 打印bint参数
+    # 打印bint的参数
     print(bint)
     # 返回aint+bint
     return aint - bint
