@@ -48,7 +48,7 @@ def add(aint, bint):
     return aint + bint
 
 
-# 声明一个sub方法，参数有两个 aint，bint
+# 声明一个sub方法，参数有两个: aint，bint
 def sub(aint, bint):
     # 打印aint参数
     print(aint)
