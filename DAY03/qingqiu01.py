@@ -7,7 +7,15 @@ def req_demo():
     text_body = response.text
     print(type(text_body))
     print(text_body)
-    #
+
+    json_body1= response.json()
+    print(json_body1)
+    print(type(json_body1))
+
+    json_body2 = response.json
+    print(json_body2)
+    print(type(json_body2))
+
     json_body = response.json()
     print(type(json_body))
     print(json_body)

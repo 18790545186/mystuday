@@ -67,9 +67,10 @@ def jiafa(aint,bint):
 
 
 if __name__ == '__main__':
-    result = jiafa(5,3)
+    # result = jiafa(5,3)
     # result = jiafa(aint=5,bint=3)
-    print(result)
+    # print(result)
+    print(jiafa(1,5))
     # float_demo()
 
     pass
