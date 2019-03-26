@@ -23,7 +23,7 @@ def open_demo2():
     readline = text_io.readline()
     print(readline)
     readlines = text_io.readlines()
-    print(readlines)
+    print(readline)
 
 
 if __name__ == '__main__':
