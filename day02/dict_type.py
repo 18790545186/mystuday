@@ -5,7 +5,12 @@ adict = {"name":"admin","pwd":"123456"}
 # 字典类型转换成字符串类型
 adictstr = '{"name":"admin","pwd":"123456"}'
 
+bdict = {"名字":"杨阳洋","性别":"男"}
 if __name__ == '__main__':
+
+    s = json.dumps(bdict, ensure_ascii=False)
+    print(s)
+    print(type(s))
     # 取出并删除名字
     # adict.pop('name')
     # 错误示范：“adict.pop('admin')”括号里面应该是Key 不能直接写value
