@@ -1,3 +1,3 @@
-# coding=gbk
+# coding=utf-8
 if __name__ == '__main__':
-    print('ÄãºÃ')
+    print('ä½ å¥½')

@@ -19,7 +19,7 @@ if __name__ == '__main__':
     # print(adict)
     aint = '字符串转字典'
     print(aint)
-    # 字符串转成字典 str-->dict
+    # 字符串转成字典 str-->dic
     # 打印变量adictstr（字符串）
     bint = '字符串'
     print(bint)
