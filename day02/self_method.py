@@ -1,4 +1,4 @@
-# 步长 j
+# 步长
 
 # 遍历一个list
 def list_bianli():
